@@ -142,7 +142,7 @@ body {
     right: -100%;
     width: 100%;
     height: 200%;
-    background-color: #4D4D52;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease-in-out;
     z-index: 998;
@@ -160,10 +160,37 @@ body {
     margin: 20px auto 0 auto;
 }
 
+.sidebar-logo {
+    width: 50%;
+    margin: auto;
+    margin-top: 26%;
+    margin-bottom: 36px;
+}
+
+.sidebar-logo img {
+    width: 100%;
+}
+
 .sidebar-items {
     margin: auto;
     width: 80%;
     margin-top: 0;
+}
+
+.sidebar-items ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar-items ul li {
+    margin: 8px 0;
+}
+
+.sidebar-items ul li a {
+    text-decoration: none;
+    color: #253d30;
+    font-size: 16px;
 }
 
 /* Header */
@@ -1071,7 +1098,12 @@ body {
         display: block;
     }
 
-    .form-data form input, .form-data form select {
+    .form-data form input {
+        width: 99%;
+        margin-bottom: 8px;
+    }
+
+    .form-data form select {
         width: 100%;
         margin-bottom: 8px;
     }
