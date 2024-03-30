@@ -493,6 +493,16 @@ body {
     color: #fff;
 }
 
+.form-data form select {
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    background: #253d30;
+    color: #fff;
+    outline: none;
+    padding-left: 20px;
+}
+
 .form-data button {
     border-radius: 8px;
     width: 100%;
@@ -1027,6 +1037,10 @@ body {
 
     .about-text {
         font-size: 14px;
+    }
+
+    .about-title {
+        font-size: 22px;
     }
 
     /* Contact */
