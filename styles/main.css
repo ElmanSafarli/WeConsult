@@ -1071,7 +1071,7 @@ body {
         display: block;
     }
 
-    .form-data form input {
+    .form-data form input, .form-data form select {
         width: 100%;
         margin-bottom: 8px;
     }
