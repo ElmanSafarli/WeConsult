@@ -89,7 +89,7 @@ body {
 
 .hamburger {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 24px;
     right: 4%;
     z-index: 999;
